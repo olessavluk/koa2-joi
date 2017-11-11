@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should accept a valid request 1`] = `
+Object {
+  "test": 1,
+}
+`;
+
+exports[`should reject an invalid request 1`] = `
+Array [
+  Object {
+    "context": Object {
+      "key": "test",
+      "label": "test",
+    },
+    "message": "\\"test\\" is required",
+    "path": Array [
+      "test",
+    ],
+    "type": "any.required",
+  },
+]
+`;
