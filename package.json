@@ -1,0 +1,41 @@
+{
+  "name": "koa2-joi",
+  "version": "1.0.0",
+  "description": "Joi validation middleware for Koa",
+  "main": "src/validate.js",
+  "scripts": {
+    "test": "jest",
+    "jest": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "rootDir": "src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/olessavluk/koa2-joi.git"
+  },
+  "keywords": [
+    "koa",
+    "joi"
+  ],
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "author": "Oles Savluk <savluk.oles@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/olessavluk/koa2-joi/issues"
+  },
+  "homepage": "https://github.com/olessavluk/koa2-joi",
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "joi": "^13.0.1",
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0",
+    "supertest": "^3.0.0"
+  },
+  "peerDependencies": {
+    "joi": "^13.0.1"
+  }
+}
